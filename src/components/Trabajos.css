@@ -1,0 +1,60 @@
+.div-trabajos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -50;
+    background-color:rgba(3, 23, 48, 0.8) ;
+}
+.container-trabajos{
+    width: 80%;
+    height: 100%;
+    margin: 2% auto;
+
+    display: grid;
+    grid-template-rows: 25rem 25rem ;
+    grid-auto-rows: 25rem;
+    grid-template-columns: repeat(auto-fill,minmax(250px,auto));
+    gap: 20px 50px;
+    
+
+
+}
+.imagen-trabajo{
+    background: url(../img/rec9.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+    border: solid 5px var(--amarillo);
+
+}
+.text-trabajo p{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    color: #eff4fc;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+.text-trabajo{
+    height: 30%;
+    width: 100%;
+}
+
+.trabajo-container_trabajos:hover{
+    border: solid 10px var(--azul);
+    cursor: pointer;
+}
+.trabajo-container_trabajos:active{
+    border: solid 10px var(--azul);
+    cursor: pointer;
+}
+.color-trabajo{
+    width: 100%;
+    height: 70%;
+    background-color: var(--amarillo);
+}

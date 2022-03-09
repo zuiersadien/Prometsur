@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  display: flex;
+  background: var(--azul);
+  align-items: center;
+  justify-content: space-around;
+  min-height: 266px;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+.footer-secciones h6 {
+  font-size: 2.2rem;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contactos h6 {
+  font-size: 2.2rem;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+
+  line-height: 26px;
+  
+}
+.miniminibarra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+}
+.miniminibarra div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.footer-secciones div p{
+    font-size: 1.8rem;
+    color: aliceblue;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+.footer-logo {
+
+
+  display: flex;
+}
+ .footer-logo img{
+
+  justify-items: auto;
+}

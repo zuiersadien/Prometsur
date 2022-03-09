@@ -1,0 +1,121 @@
+.clientes-container{
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 20%;
+  overflow-x: hidden;
+  align-content: space-around;
+
+  /* overscroll-behavior-inline: contain; */
+}
+.clientes-container::-webkit-scrollbar{
+  background-color: rgba(red, green, blue, 0,1);
+}
+.cliente{
+    width: 100%;
+    height: 94px;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+.cliente1{
+  animation-name: cambia;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.cliente2{
+  animation-name: cambia2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+.cliente3{
+  animation-name: cambia3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+.cliente4{
+  animation-name: cambia4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+ 
+}
+.cliente5{
+  animation-name: cambia5;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes cambia {
+  0% {
+    background: url(../img/clientes/cliente1.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+
+  }
+  100% {
+    background: url(../img/clientes/cliente2.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+  }
+ }
+ @keyframes cambia2 {
+  0% {
+    background: url(../img/clientes/cliente3.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+
+  }
+  100% {
+    background: url(../img/clientes/cliente4.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+  }
+ }
+ @keyframes cambia3 {
+  0% {
+    background: url(../img/clientes/cliente5.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+
+  }
+  100% {
+    background: url(../img/clientes/cliente6.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+  }
+ }
+ @keyframes cambia4 {
+  0% {
+    background: url(../img/clientes/cliente7.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+
+  }
+  100% {
+    background: url(../img/clientes/cliente8.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+  }
+ }
+ @keyframes cambia5 {
+  0% {
+    background: url(../img/clientes/cliente9.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+
+  }
+  100% {
+    background: url(../img/clientes/cliente10.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+  }
+ }
